@@ -12,7 +12,8 @@ export default function useBooks() {
 
     const getBook = async (id) => {
         let response = await axios.get('/api/books/' + id)
-        book.value = response.data.data;
+
+        book.value = response.data;
     }
 
     return {

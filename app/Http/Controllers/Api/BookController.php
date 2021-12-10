@@ -23,7 +23,11 @@ class BookController extends Controller
 
     public function show(Book $book)
     {
-        return new BookResource($book);
+        return  [
+        'title' => $book->title,
+         'year' => $book->year,
+         'pages' => $book->pages
+        ];
     }
 
     public function update(BookRequest $request, Book $book)

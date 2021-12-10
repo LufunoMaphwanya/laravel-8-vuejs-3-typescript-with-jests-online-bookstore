@@ -11,6 +11,11 @@
             </div>
 
             <div class="col-9 border">
+                <div class="card" style="width: 100%;  margin: 10px; padding: 10px;" v-for="page in book.pages" :key="page.id">
+                    <div class="card-body">
+                            {{ page.content}}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
