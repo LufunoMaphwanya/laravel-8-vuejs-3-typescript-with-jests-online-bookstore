@@ -11,4 +11,9 @@ class Page extends Model
 
     protected $fillable = ['content'];
 
+    public function book()
+    {
+        return $this->belongsTo(Book::class);
+
+    }
 }
