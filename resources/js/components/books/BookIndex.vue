@@ -11,7 +11,7 @@
     </div>
 </template>
 
-<script>
+<script lang='ts'>
 import useBooks from '../../composables/books';
 import { onMounted } from 'vue';
 

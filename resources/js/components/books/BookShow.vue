@@ -21,7 +21,7 @@
     </div>
 </template>
 
-<script>
+<script lang='ts'>
 import useBooks from '../../composables/books'
 import { onMounted } from 'vue';
 
@@ -33,8 +33,8 @@ export default {
         }
     },
 
-    setup(props) {
-        const { errors, book, getBook } = useBooks()
+    setup(props: any) {
+        const { book, getBook } = useBooks()
 
         onMounted(() => getBook(props.id))
 
