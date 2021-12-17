@@ -3,7 +3,7 @@
 
 module.exports = {
     "testEnvironment": "jsdom",
-    testRegex: 'resources/js/tests/.*.spec.js$',
+    testRegex: 'resources/js/tests/.*.spec.ts$',
     moduleFileExtensions: [
       'js',
       'json',

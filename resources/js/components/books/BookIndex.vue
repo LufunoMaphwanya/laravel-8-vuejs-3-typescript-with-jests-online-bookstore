@@ -21,7 +21,7 @@ export default {
         onMounted(getBooks)
 
         return {
-            books,
+            books
         }
     }
 }

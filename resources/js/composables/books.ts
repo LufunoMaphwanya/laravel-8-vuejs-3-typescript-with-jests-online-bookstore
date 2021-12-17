@@ -6,7 +6,7 @@ export default function useBooks() {
     const book = ref([])
 
     const getBooks = async () => {
-        let response = await axios.get('/api/books')
+        const response = await axios.get('/api/books');
         books.value = response.data.data;
     }
 

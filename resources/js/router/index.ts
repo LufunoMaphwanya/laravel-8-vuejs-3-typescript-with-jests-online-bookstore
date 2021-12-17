@@ -14,7 +14,8 @@ const routes = [
         name: 'books.show',
         component: BookShow,
         props: true
-    }
+    },
+    { path: "/:pathMatch(.*)", component: { template: "Not found"} }
 ];
 
 export default createRouter({
