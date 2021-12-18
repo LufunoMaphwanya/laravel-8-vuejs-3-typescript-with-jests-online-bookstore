@@ -63,9 +63,6 @@ it should be available http://localhost:8000/home
 
 <img src="https://github.com/LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore/blob/main/github/test-img-1.png?raw=true" width="590">
 
-
-
-
 Run front end tests
 ```bash
 npm run test
@@ -78,28 +75,29 @@ php artisan migrate:fresh --seed
 
 <img src="https://github.com/LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore/blob/main/github/test-img-2.png?raw=true" width="590">
 
+And there you go.... <br>
+You can go ahead and customize as you please. <br><br>
+
+# B. Tutorial 
+## Our example app
+
+A simple books store where i can log in and see available books and leave reviews. ( I've ommitted roles so we will not have admin adding new books for example).
+A CRUD focussed version is avialble @
+
+This is a simplified ER diagram of our online book store:
 
 
 
-```bash
-git clone git@github.com:LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore.git
-```
-```bash
-git clone git@github.com:LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore.git
-```
-
-To set up the complete version of this project
+<img src="https://github.com/LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore/blob/main/github/er.png?raw=true" width="590">
 
 
-```bash
-git clone git@github.com:LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore.git
-```
-```bash
-git clone git@github.com:LufunoMaphwanya/laravel-8-vuejs-3-typescript-with-jests-online-bookstore.git
-```
+## Creating a Laravel online bookstore 
+1. - [Set up complete project](#completeproject-set-up)<br>
+2. - [Set up complete project](#completeproject-set-up)<br>
+3. - [Set up complete project](#completeproject-set-up)<br>
+4. - [Set up complete project](#completeproject-set-up)<br>
+5. - [Set up complete project](#completeproject-set-up)<br>
 
-## Tutorial 
-###  sections are skippable if you need just a subsection of this verbose info
 
 ```python
 import foobar
